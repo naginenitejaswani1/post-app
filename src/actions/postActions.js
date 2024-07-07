@@ -1,14 +1,3 @@
-/* export const addPost = (post) => ({
-    type: 'ADD_POST',
-    payload: post
-  });
-  
-  export const editPost = (post) => ({
-    type: 'EDIT_POST',
-    payload: post
-  });
-  */
-// Add this function to handle saving to localStorage
 const savePostsToLocalStorage = (posts) => {
   localStorage.setItem('posts', JSON.stringify(posts));
 };
